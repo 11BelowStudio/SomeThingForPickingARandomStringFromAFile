@@ -1,5 +1,9 @@
 package Packij;
 
+//pretty much reverse-engineered from my HighScoreHandler stuff in some of my other games
+
+//https://github.com/IDontHaveAnyClueWhatToPutHere/SomeThingForPickingARandomStringFromAFile git repo ayy lmao
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -92,7 +96,6 @@ public class RandomStringChooser {
 
         } catch (FileNotFoundException e) {
             //if the file couldn't be found
-            //fileExists = false;
             System.out.println("did u delete the random words file? smh my head");
             //records and complains about lack of file
 
